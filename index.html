@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luz Ingá - matérias de decoração</title>
+
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+
+    <script src="script/script.js" defer></script>
+  </head>
+  <body>
+    <div class="boxcad" id="email">
+      <h1>Faça seu orçamento agora mesmo!</h1>
+      <form name="formuser" action="enviar.php" method="POST">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" placeholder="Apenas letras" />
+        
+        <label for="email">E-mail</label>
+        <input type="text" name="email" placeholder="seu@email.com" />
+        
+        <label for="cpf">CPF</label>
+        <input type="text" name="cpf" placeholder="Apenas numeros" />
+        
+        <label for="msg">Mensagem</label>
+        <textarea
+          name="msg"
+          rows="5"
+          cols="33"
+          placeholder="Digite sua mensagem"
+        ></textarea>
+        <div class="checkbox">
+          <p>Aceito receber promoções e ofertas dessa empresa.</p>
+          <input class="box" type="checkbox" required />
+        </div>
+        <br>
+        <input type="submit" class="button" onclick="return validar()" />
+      </form>
+    </div>
+  </body>
+</html>

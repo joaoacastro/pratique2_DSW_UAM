@@ -1,0 +1,65 @@
+.boxcad h1 {
+  text-align: center;
+}
+.boxcad {
+  width: 100%;
+  padding: 10px 0 50px 0;
+  background-color: rgba(92, 92, 92, 0.425);
+  margin: auto;
+  margin-top: 50px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #b3b3b3;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+}
+
+form input {
+  color: black;
+  height: 30px;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+form input:focus {
+  border-style: inset;
+  border-width: 5px;
+  background-color: #f79f97;
+}
+
+form textarea {
+  color: black;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+form textarea:focus {
+  border-style: inset;
+  border-width: 5px;
+  border-color: #bf3c30;
+}
+
+.checkbox {
+  display: flex;
+  margin: auto;
+}
+input,
+textarea{
+    padding: 5px 5px 5px 5px;
+}
+.box {
+  width: 20px;
+  margin-left: 5px;
+}
+
+label {
+  padding: 10px 80px;
+}
